@@ -1,12 +1,12 @@
 import React from 'react';
-import Landing from './landing';
-import About from './about';
-import Contacts from './contacts';
-import Gallery from './gallery';
-import Prices from './prices';
-import Products from './products';
-import Help from './help';
-import Privacy from './privacy';
+import Landing from './landing/landing';
+import About from './about/about';
+import Contacts from './contacts/contacts';
+import Gallery from './gallery/gallery';
+import Prices from './prices/prices';
+import Products from './products/products';
+import Help from './help/help';
+import Privacy from './privacy/privacy';
 import { Switch, Route} from 'react-router-dom';
 
 
