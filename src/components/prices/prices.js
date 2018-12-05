@@ -4,7 +4,11 @@ class Prices extends Component {
     render () {
         return (
             <div>
-                <h1>Prices</h1>
+                <h1>Цены</h1>
+                <p>Цены на наши услуги определяются согласно прайсу который вы можете посмотреть <a href="/files/pricing.xlsx" download>
+                   здесь
+                </a>
+                </p>
             </div>
         )
     }

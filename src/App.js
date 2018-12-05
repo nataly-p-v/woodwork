@@ -9,24 +9,28 @@ class App extends Component {
     return (
       <div className="content">
           <Layout>
-              <Header title="Title" scroll>
+              <Header scroll>
+                  <Link to="/" class="mdl-layout-title logo">
+                    <img src="https://cdn.logojoy.com/wp-content/uploads/2017/08/freelogodesign2@2x.png"></img>
+                  </Link>
+                  <div class="mdl-layout-spacer"></div>
                   <Navigation>
                       <Link to="/">Главная</Link>
                       <Link to="/about">О нас</Link>
                       <Link to="/contacts">Контакты</Link>
                       <Link to="/gallery">Галерея</Link>
                       <Link to="/prices">Цены</Link>
-                      <Link to="/products">Продукция</Link>
+                      <Link to="/services">Наши услуги</Link>
                   </Navigation>
               </Header>
-              <Drawer title="Title">
+              <Drawer >
                   <Navigation>
                       <Link to="/">Главная</Link>
                       <Link to="/about">О нас</Link>
                       <Link to="/contacts">Контакты</Link>
                       <Link to="/gallery">Галерея</Link>
                       <Link to="/prices">Цены</Link>
-                      <Link to="/products">Продукция</Link>
+                      <Link to="/services">Наши услуги</Link>
                   </Navigation>
               </Drawer>
               <Content>
@@ -34,25 +38,25 @@ class App extends Component {
               </Content>
               <Footer size="mega">
                   <FooterSection type="middle">
-                      <FooterDropDownSection title="Features">
+                      <FooterDropDownSection>
                           <FooterLinkList>
-                              <Link to="/">Home</Link>
-                              <Link to="/about">About</Link>
-                              <Link to="/contacts">Contacts</Link>
+                              <Link to="/">Главная</Link>
+                              <Link to="/about">О нас</Link>
+                              <Link to="/contacts">Контакты</Link>
                           </FooterLinkList>
                       </FooterDropDownSection>
-                      <FooterDropDownSection title="Details">
+                      <FooterDropDownSection>
                           <FooterLinkList>
-                              <Link to="/gallery">Gallery</Link>
-                              <Link to="/prices">Prices</Link>
-                              <Link to="/products">Products</Link>
+                              <Link to="/gallery">Галерея</Link>
+                              <Link to="/prices">Цены</Link>
+                              <Link to="/services">Наши услуги</Link>
                           </FooterLinkList>
                       </FooterDropDownSection>
                   </FooterSection>
-                  <FooterSection type="bottom" logo="Title">
+                  <FooterSection type="bottom">
                       <FooterLinkList>
-                          <Link to="/help">Помощь</Link>
-                          <Link to="/privacy">Конфиденциальность и условия</Link>
+© 2018 Строительная компания © Украина, Киев. Все материалы, размещенные на сайте защищены законодательством об охране авторских прав.
+
                       </FooterLinkList>
                   </FooterSection>
               </Footer>
