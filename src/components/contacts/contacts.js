@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Contacts extends Component {
     render () {
         return (
-            <div>
+            <div className={"content"}>
                 <h1>Контакты</h1>
                 <p>
                     Для заказа наших услуг достаточно позвонить <a href="tel:+1234567890"> по номеру телефона </ a> или отправить <a href="mailto:natalypvmail@gmail.com">запрос на электронную почту </ a>

@@ -11,13 +11,15 @@ class Gallery extends Component {
             }
         }
         return (
-            <Swiper {...params}>
-                <div><img src="https://www.zalarob.com/assets/Uploads/top-image-2.jpg"/></div>
-                <div><img src="https://www.zalarob.com/assets/Uploads/top-image-1.jpg"/></div>
-                <div><img src="https://www.zalarob.com/assets/Uploads/top-image-3.jpg"/></div>
-                <div><img src="https://www.zalarob.com/assets/Uploads/top-image-1.jpg"/></div>
-                <div><img src="https://www.zalarob.com/assets/Uploads/top-image-2.jpg"/></div>
-            </Swiper>
+            <div className={"content-gallery"}>
+                <Swiper {...params}>
+                    <div><img src="https://www.zalarob.com/assets/Uploads/top-image-2.jpg"/></div>
+                    <div><img src="https://www.zalarob.com/assets/Uploads/top-image-1.jpg"/></div>
+                    <div><img src="https://www.zalarob.com/assets/Uploads/top-image-3.jpg"/></div>
+                    <div><img src="https://www.zalarob.com/assets/Uploads/top-image-1.jpg"/></div>
+                    <div><img src="https://www.zalarob.com/assets/Uploads/top-image-2.jpg"/></div>
+                </Swiper>
+            </div>
         )
     }
 }

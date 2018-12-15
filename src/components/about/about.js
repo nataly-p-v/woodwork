@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
     render () {
         return (
-            <div>
+            <div className={"content"}>
                 <h1>О нас</h1>
                 <p>
                    Мы ведущая в Украине компания на рынке гидростроительства. Мы профессионально выполняем укрепление берега любых водоемов по всей территории нашей страны.

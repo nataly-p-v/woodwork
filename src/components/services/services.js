@@ -4,7 +4,7 @@ import {Grid, Cell, Card, CardTitle, CardText} from 'react-mdl';
 class Products extends Component {
     render () {
         return (
-            <div>
+            <div className={"content-services"}>
                 <h1>Наши услуги</h1>
                 <Grid className="grid-ruler">
                     <Cell col={6}>

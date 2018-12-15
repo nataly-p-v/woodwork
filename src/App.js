@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="content">
+      <div className="content-main">
           <Layout>
               <Header scroll>
                   <Link to="/" class="mdl-layout-title logo">
@@ -36,7 +36,7 @@ class App extends Component {
               <Content>
               <Main/>
               </Content>
-              <Footer size="mega">
+              <Footer size="mega" className={"footer"}>
                   <FooterSection type="middle">
                       <FooterDropDownSection>
                           <FooterLinkList>
